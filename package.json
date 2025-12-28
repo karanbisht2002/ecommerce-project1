@@ -1,0 +1,18 @@
+{
+  "name": "ecommerce-project1",
+  "version": "1.0.0",
+  "description": "This is the ecommerce Projct where we are planning to sell bags and this is my first project with nodejs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "karan bisht",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cookie-parser": "^1.4.7",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^8.20.4"
+  }
+}
