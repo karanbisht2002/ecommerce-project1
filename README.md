@@ -22,3 +22,6 @@ isdiscount
 bgcolor
 text color
 panel color
+
+
+

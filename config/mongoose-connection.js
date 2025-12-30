@@ -1,9 +1,11 @@
 const mongoose = require("mongoose");
+const config = require("config");
+const debuger = require("debug")("development:mongoose");
 
 mongoose
-  .connect("mongodb://localhost:27017/ecommerce-project1")
+  .connect(`${config.get("MONGODB_URI")}/ecommerce-project1`)
   .then(function () {
-    console.log("connected");
+    debuger("connected");
   })
   .catch(function (error) {
     console.log(error);

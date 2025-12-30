@@ -1,0 +1,11 @@
+#for Developement you need to setup variable
+
+--> export DEBUG=development:*  
+This will use the development.json (you have to create this file inside config folder)
+and in production it will use production.json  (you have to create this file inside config folder)
+
+
+--> export NODE_ENV=development
+
+After setuping this your {if(process.env.NODE_ENV =="development")}
+will become true and inside "if" condition code  will excute
